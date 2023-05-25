@@ -1,0 +1,16 @@
+a {
+  font-weight: 200;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #8a38ef;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
