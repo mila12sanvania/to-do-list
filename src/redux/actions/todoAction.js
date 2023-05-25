@@ -5,10 +5,10 @@ export const COMPLETE_TODO = "COMPLETE_TODO"
 export const FILTER_ACTIVE_TODO = "FILTER__ACTIVE_TODO"
 export const FILTER_COMPLETE_TODO = "FILTER_COMPLETE_TODO"
 
-// let myId = 0
+
 
 export const addTodo = (todo) => {
-    // localStorage.setItem("datas", JSON.stringify(newTodo));
+
     return {
         type: ADD_TODO,
         payload: todo

@@ -47,6 +47,10 @@ input[type="text"] {
   color: #8b51c2;
 }
 
+.font-link {
+  font-family: 'Poppins', sans-serif;
+}
+
 @media screen and (max-width: 990px) {
   .box {
     width: 85%

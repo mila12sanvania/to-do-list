@@ -80,7 +80,7 @@ export const TodoList = () => {
     return (
         <>
             <div className="container box">
-                <h2 className='text-center pt-4' style={{color: "#1a1919"}}>What's the plan for today?</h2>
+                <h2 className='text-center pt-4 font-link' style={{color: "#1a1919"}}>What's the plan for today?</h2>
                 <div className="todo-input d-flex justify-content-center mt-lg-5 mt-4">
                     <form onSubmit={handleSubmit}>
                         <div className="row d-flex justify-content-center">
@@ -97,7 +97,7 @@ export const TodoList = () => {
                             />
                         </div>
                         <div className="col-lg-2 col-md-12 pt-lg-0 pt-2">
-                            {updateTodo ? (<button type='submit' className='btn py-lg-2 py-1 w-150' style={{color: "#ffff",backgroundColor: "#8b51c2"}}>Update</button>) : (<button type='submit' className='btn py-lg-2 py-1 w-1' style={{color: "#ffff",backgroundColor: "#8b51c2"}}>Add</button>)}
+                            {updateTodo ? (<button type='submit' className='btn py-lg-2 py-1 w-150 font-link' style={{color: "#ffff",backgroundColor: "#8b51c2"}}>Update</button>) : (<button type='submit' className='btn py-lg-2 py-1 w-1 font-link' style={{color: "#ffff",backgroundColor: "#8b51c2"}}>Add</button>)}
                         </div>
                         </div>
                     </form>
@@ -110,7 +110,7 @@ export const TodoList = () => {
                         <ul className="nav nav-tabs" id="myTab" role="tablist">
                             <li className="nav-item" role="presentation">
                                 <button 
-                                    className="nav-link active"
+                                    className="nav-link active font-link"
                                     id="all-tab" 
                                     data-bs-toggle="tab" 
                                     data-bs-target="#all-tab-pane" 
@@ -125,7 +125,7 @@ export const TodoList = () => {
                             </li>
                             <li className="nav-item" role="presentation">
                                 <button 
-                                    className="nav-link"
+                                    className="nav-link font-link"
                                     id="active-tab" 
                                     data-bs-toggle="tab" 
                                     data-bs-target="#active-tab-pane" 
@@ -139,7 +139,7 @@ export const TodoList = () => {
                             </li>
                             <li className="nav-item" rol="presentation">
                                 <button 
-                                    className="nav-link"
+                                    className="nav-link font-link"
                                     id="completed-tab" 
                                     data-bs-toggle="tab" 
                                     data-bs-target="#completed-tab-pane" 

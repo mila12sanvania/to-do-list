@@ -2,14 +2,10 @@ import { ADD_TODO, COMPLETE_TODO, DELETE_TODO, EDIT_TODO, FILTER_ACTIVE_TODO, FI
 
 const initialState = {
     todos : [
-        // { id: 1, title: "belajar react", isDone: false },
-        // { id: 2, title: "belajar redux", isDone: false },
-        // { id: 3, title: "belajar hooks", isDone: false },
+        
     ],
     filter: [
-        // { id: 1, title: "belajar react", isDone: false },
-        // { id: 2, title: "belajar redux", isDone: false },
-        // { id: 3, title: "belajar hooks", isDone: false },
+        
     ],
 }
 
